@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+import ChildrenList from './componets/ChildrenList';
 function App() {
   return (
     <div className="App">
@@ -11,9 +12,7 @@ function App() {
           My name is Carolina :D ,
           Let's try to deploy it
         </p>
-        <p>
-          New sentence, for seeing changes in deployment
-        </p>
+        <ChildrenList/>
       </header>
     </div>
   );
