@@ -16,6 +16,7 @@ function ChildrenList(){
     return(
         <Fragment>
             <h1>Lista de los niños</h1>
+            <h1>Se actualizo mensaje</h1>
             <Grid container spacing={24} justify="center" >
                 {childrenData.ninos.map((nino,index) => {
                     return <CardChild nameChild={nino} imageUrl={childrenData.imagesUrl[index]}/>
