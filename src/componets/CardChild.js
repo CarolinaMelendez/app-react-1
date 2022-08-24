@@ -1,7 +1,6 @@
-import React  from "react";
+import React  from 'react';
 import {Card,CardMedia, CardContent,Typography} from '@material-ui/core';
-import {withStyles } from '@material-ui/core/styles'
-
+import {withStyles } from '@material-ui/core/styles';
 
 
 function CardChild( {nameChild, classes, imageUrl}){
@@ -12,16 +11,16 @@ function CardChild( {nameChild, classes, imageUrl}){
                 <Typography component="p" variant="h7">{nameChild}</Typography>
             </CardContent>
         </Card>
-    )
+    );
 }
 
 export default withStyles({
     item:{
-        minWidth : "200px",
-        margin: "1em",
-        boxSizing: "border-box"
+        minWidth : '200px',
+        margin: '1em',
+        boxSizing: 'border-box'
     },
     media:{
-        minHeight: "150px"
+        minHeight: '150px'
     }
 }) (CardChild);
